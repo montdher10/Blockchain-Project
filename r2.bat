@@ -1,0 +1,3 @@
+geth --datadir "C:\Users\montd\Desktop\Project\r2" init "C:\Users\montd\Desktop\Project\r2\genesis.json"
+
+geth --datadir "C:\Users\montd\Desktop\Project\r2" --ipcdisable --nodiscover console --bootnodes enode://f7aba85ba369923bffd3438b4c8fde6b1f02b1c23ea0aac825ed7eac38e6230e5cadcf868e73b0e28710f4c9f685ca71a86a4911461637ae9ab2bd852939b77f@127.0.0.1:0?discport=30305  --networkid 333 --unlock 0x5910D8cC97f8A1ffaa2111aeA2DE087e250f66b3 --password "C:\Users\montd\Desktop\Project\pass.txt" --port 30353  --http --http.corsdomain '*' --http.port 8553 --allow-insecure-unlock --nodiscover --vmdebug console
